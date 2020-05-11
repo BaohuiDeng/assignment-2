@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+	<link href="fontawesome/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Contact Us</title>
+</head>
+
+<body>
+
+
+	
+	<nav class="navbar navbar-expand-md  sticky-top navbar-light bg-light shadow">
+        <div class="navbar-brand d-flex col-4">
+			<img src="soco-logo.png" height="35px">
+		</div>
+
+		<div class="col-3">
+		<h4 class="text-success text-center">Navigation</h4></div>
+		
+		<button class="navbar-toggler" type="button" 
+		data-toggle="collapse" data-target="#navCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navCollapse">
+
+            <ul class="navbar-nav ml-auto">
+               <!-- <div class="col-4">
+					<h5 class="ml-2 mr-4 text-secondary text-right">Contact Us</h5></div>-->
+                <li class="nav-item  dropdown">
+                    <a class="nav-link drop-down-toggle" href="#" id="#userDropdown" role="button" data-toggle="dropdown">Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+	</nav>
+<div class="form-row col-12 mx-auto">
+<h1 class="text-left offset-lg-2  mt-2">Contact Us</h1>
+</div>
+<div class="form-row col-12 mx-auto">
+<label for="text" class="offset-lg-2">First name and last name</label>
+</div>
+
+
+<div class="form-row col-12 mx-auto">
+			<div class="form-group has-error has-feedback offset-lg-2">
+			<input type="text" class="form-control" placeholder="first name" id="email">
+			<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+		</div>
+		<div class="form-group has-error has-feedback">
+			<input type="text" class="form-control" placeholder="last name" id="pwd">
+			<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+			</div>
+
+	</div>
+
+
+
+					  <div class="form-row col-12 mx-auto">
+
+						<div class="form-group has-error has-feedback col-lg-8 offset-lg-2 mt-3 mx-auto mb-3 col-12">
+							<label for="validationServer07">Email</label>
+							<input id="check_np" name="check_no" type="email" placeholder="abc@uni-due.de" class="form-control">
+							<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+						   <span class="help-block"><p>				Valid Email is required
+							</p></span>                                       
+						   </div>
+
+		
+
+			  <div class="form-group has-error has-feedback col-lg-4 offset-lg-2  mb-3">
+				<label for="validationServer04">Country</label>
+				<input id="check_np" name="check_no" type="text" placeholder="" class="form-control ">
+				<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+			   <span class="help-block"><p>			
+				</p></span>                                       
+			   </div>
+
+
+		  <div class="col-lg-3 mb-3">
+			<label for="validationServer05">City</label>
+			<select class="form-control is-valid" id="exampleFormControlSelect1">
+				<option>choose..</option>
+				<option>UK</option>
+				<option>Germany</option>
+				<option>China</option>
+				<option>Japan</option>
+			  </select>
+			<div class="valid-feedback">
+			</div>
+		  </div>
+		  <div class="col-lg-1 mb-3 ">
+			<label for="validationServer06">Postal Code</label>
+			<input type="text" class="form-control is-valid" id="validationServer06" placeholder="" required>
+			<div class="valid-feedback">
+			</div>
+		  </div>
+		  
+		  <div class="col-lg-8 offset-lg-2 col-md-12">
+			  <hr>
+		  </div>
+		 <!-- <div class="col-lg-8 offset-lg-2 mx-auto mb-3 col-12">
+			<label for="validationServer07">Subject</label>
+			<input type="text" class="form-control is-invalid" id="validationServer07" placeholder="" required>
+			<div class="invalid-feedback">
+				Enter a subject to your feedback
+			</div>
+		  </div>-->
+		  <div class="form-group has-error has-feedback col-lg-8 offset-lg-2 mx-auto mb-3 col-12">
+			<label for="validationServer07">Subject</label>
+
+			<input id="check_np" name="check_no" type="text" placeholder="" class="form-control ">
+			<span class="glyphicon glyphicon-remove form-control-feedback"></span>
+		   <span class="help-block"><p>				Enter a subject to your feedback
+			</p></span>                                       
+		   </div>
+
+		
+		  
+
+		  <div class="col-lg-8 mb-3 offset-lg-2 mx-auto form-group col-12 ">
+			<label for="exampleFormControlTextarea1">Comments/Feedback</label>
+			<textarea class="form-control is-valid" id="exampleFormControlTextarea1" rows="5"></textarea>
+			<div class="valid-feedback">
+			</div>
+		  </div>
+		  
+	 
+		
+		  <div class="col-lg-8  offset-9 mx-auto form-group">
+			<div class="custom-control custom-switch">
+				<input type="checkbox" class="custom-control-input is-valid" id="customSwitches" checked>
+				<label class="custom-control-label" for="customSwitches">Request a form submission confirmation</label>
+			  </div>
+		</div>
+	
+		  </div>
+		 
+	
+		
+		<button class="btn btn-primary offset-9  mb-3" type="submit">Submit</button>
+	  </form>
+	  <script src="bootstrap-4.4.1-dist/jquery-3.4.1.min.js "></script>
+	  <script src="bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js "></script>
+  
+</body>
+
+</html>
