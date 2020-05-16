@@ -13,30 +13,35 @@
     
    
   
-    <nav class="navbar navbar-expand-md  sticky-top navbar-light bg-light shadow">
-        <div class="navbar-brand d-flex col-4">
-      <img src="soco-logo.png" height="35px">
-    </div>
+  <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light shadow">
+        <!-- Task 1.2 Start - Nav Brand Section -->
+
+        <div class="navbar-brand d-flex">
+            <img src="soco-logo.png" height="35px">
+        </div>
+        <!-- Task 1.2 End - Nav Brand Section -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
     
-    <div class="col-3">
-    <h4 class="text-success text-center"></h4></div>
-    
-    <button class="navbar-toggler" type="button" 
-    data-toggle="collapse" data-target="#navCollapse">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navCollapse">
-    
-            <ul class="navbar-nav ml-auto">
-               <!-- <div class="col-4">
-          <h5 class="ml-2 mr-4 text-secondary text-right">Contact Us</h5></div>-->
-                <li class="nav-item  dropdown">
-                    <a class="nav-link drop-down-toggle" href="Contact-Us.html" id="#userDropdown" role="button" data-toggle="dropdown">Contact Us
+        <!-- Task 1.3 & 1.4 Start - Nav Collapse Section -->
+        <div class="collapse navbar-collapse" id="navCollapse">
+
+            <ul class="text-right mt-3 list-unstyled">
+                
+                
+                <li class="nav-item dropdown ml-2">
+                    <a class="nav-link drop-down-toggle" href="#" id="#userDropdown" role="button" data-toggle="dropdown">
+                        <span class="text-muted h4">Contact Us</span>
+                    </a>
+                      
                     </a>
                 </li>
             </ul>
+
         </div>
+        <!-- Task 1.3 & 1.4 End - Nav Collapse Section -->
     </nav>
     
            
